@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
+  <nav className= "navbar navbar-default">
+    <p>Sense8 Assignment</p>
     <Link to="/">Home</Link>
 
-    <nav>
-      <Link to="/helloworld">Hello World</Link>
-    </nav>
 
-    <hr />
+    </nav>
   </header>
 );
 

@@ -16,7 +16,8 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 10;
+  text-align: center;
 }
 
 /* HTML5 display definitions
